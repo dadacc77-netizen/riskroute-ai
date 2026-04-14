@@ -1,4 +1,4 @@
-import http from "http";
+const http = require("http");
 
 const server = http.createServer(async (req, res) => {
 
